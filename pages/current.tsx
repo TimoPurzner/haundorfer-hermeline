@@ -4,15 +4,15 @@ import React from 'react'
 import Header from '../components/header/Header'
 import Head from 'next/head'
 
-const Home: NextPage = () => {
+const CurrentPage: NextPage = () => {
   return (
     <main>
       <Head>
-        <title>Hermeline | Home</title>
+        <title>Hermeline | Aktuelles</title>
       </Head>
-     <Header />
+     <Header/>
     </main>
   )
 }
 
-export default Home
+export default CurrentPage
