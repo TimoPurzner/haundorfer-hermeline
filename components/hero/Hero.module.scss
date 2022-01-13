@@ -5,6 +5,9 @@
     background-image: url( "/img/football_field.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    @include dark {
+        background-color: rgb(39, 14, 59);
+    }
     display: flex;
     justify-content: center;
     align-items: center;
