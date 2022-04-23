@@ -10,7 +10,6 @@ const Header = () => {
     console.log(router.pathname == '/' ? styles.active:'');
     return (
         <header className={styles.header}>
-            <img className={styles.logo} src="/haundorfer-hermeline.png" />
             <div className={styles.menu}>
                 <Link href="/">
                     <span className={`${styles.item} ${router.pathname == '/' ? styles.active:''}`}>
