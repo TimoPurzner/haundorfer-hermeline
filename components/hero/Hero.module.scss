@@ -41,6 +41,9 @@
     width:100%;
     height: auto;
     animation: logo 3s;
+    @include media(mobile){
+        margin-top: 2em;
+    }
 }
 
 @keyframes logo {
@@ -82,5 +85,10 @@
     @include dark {
         color: white;
         font-size: bold;
+    }
+
+    @include media(mobile, tablet){
+        text-align: center;
+        margin-top: 0.5em;
     }
 }
