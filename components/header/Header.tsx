@@ -26,11 +26,11 @@ const Header = () => {
                         Erfolge
                     </span>
                 </Link>
-                <Link href="/shop">
+                <a target="_blank" rel="noreferrer" href="https://sprd.co/b0bDIib">
                     <span className={`${styles.item} ${router.pathname == '/shop' ? styles.active:''}`}>
                         Shop
                     </span>
-                </Link>
+                </a>
             </div>
         </header>
     )
